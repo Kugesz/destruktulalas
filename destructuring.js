@@ -1,5 +1,5 @@
 // 1.feladat
-
+// Kerdes: A valtozok envet destrukualas eseten ugyan azoknak a kriteriuoknak kell megfelelniuk mint egy egyszeru valtozonak, és szamit a sorrendjuk
 let car = ['Ford', 'Mustang', 2022, 'blue'];
 
 let [brand,model,color,year] = car;
@@ -7,6 +7,7 @@ let [brand,model,color,year] = car;
 console.log(brand,model,color,year);
 
 // 2.feladat
+// Kerdes: az objektumban megadott kulcsneveket lehet hasznalni, a sorrend nem szamit
 
 let book = {
     title: 'JavaScript: The Good Parts',
